@@ -1,0 +1,29 @@
+#menu ul li{
+    list-style-type:none;
+    margin-bottom: 1px;
+}
+
+#menu ul li a{
+    display:block;
+    background: rgb(8, 1, 22);
+    color:#fff;
+    width: 120px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+    text-align: center;
+
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition: all 0.3s;
+    transition:all 0.3s;
+
+    
+}
+
+#menu ul li a:hover{
+background: #f00;
+color:#fff;
+width: 150px;
+
+}
